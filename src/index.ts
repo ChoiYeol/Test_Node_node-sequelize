@@ -8,7 +8,7 @@ const DB: any = sequelize;
 
 const app = new Koa();
 const router = new Router();
-const port: number = 54002;
+const port: number = 54003;
 
 // DB.sync({ force: false }).catch((error: any) => {
 //   //typescipt 이것도 타입에 따른 애러로 판명 sequelize 를 직접 붙이면 안붙지만 type 설정을 하면 붙음
